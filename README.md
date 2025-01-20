@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![QR Code Studio Banner](https://raw.githubusercontent.com/daniz019/QRCode-Generator/assets/banner.png)
+  ![QR Code Studio Banner](https://raw.githubusercontent.com/daniz019/QRCode-Generator/main/assets/banner.png)
 
 
 
@@ -60,14 +60,12 @@
 🎨 **Design Moderno**
 - Interface elegante e responsiva
 - Animações suaves e interativas
-- Tema claro/escuro automático
 
 </td>
 <td>
 
 🛠️ **Funcionalidades Avançadas**
-- Geração instantânea de QR Codes
-- Personalização completa
+- Geração instantânea de QR Codesa
 - Suporte a múltiplos formatos
 
 </td>
@@ -75,7 +73,6 @@
 
 📱 **Experiência Mobile**
 - Design mobile-first
-- PWA para instalação
 - Gestos touch otimizados
 
 </td>
@@ -94,7 +91,7 @@
 
 |                          Desktop                          |                          Mobile                           |
 | :------------------------------------------------------: | :------------------------------------------------------: |
-| ![Desktop](screenshots/desktop.png) | ![Mobile](screenshots/mobile.png) |
+| ![Desktop](https://raw.githubusercontent.com/daniz019/QRCode-Generator/main/assets/banner.png) | ![Mobile](https://raw.githubusercontent.com/daniz019/QRCode-Generator/main/assets/mobile.png) |
 
 </details>
 
@@ -128,10 +125,10 @@
 
 ```bash
 # Clone o repositório
-git clone https://github.com/danieldigrandi/qr-code-studio.git
+git clone https://github.com/daniz019/QRCode-Generator/tree/main.git
 
 # Entre no diretório
-cd qr-code-studio
+cd QRCode-Generator
 
 # Instale as dependências
 npm install
@@ -150,9 +147,8 @@ npm start
 
 1. Acesse a seção "Gerar QR Code"
 2. Insira o texto ou URL desejado
-3. Personalize as opções (cor, tamanho, etc.)
-4. Clique em "Gerar"
-5. Faça o download ou compartilhe
+3. Clique em "Gerar"
+4. Faça o download !
 
 </td>
 <td width="600px">
@@ -207,40 +203,3 @@ npm start
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍💻 Autor
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/danieldigrandi">
-        <img src="https://avatars.githubusercontent.com/danieldigrandi" width="100px;" alt="Foto do Daniel Di Grandi"/><br>
-        <sub>
-          <b>Daniel Di Grandi</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-### 📬 Contato
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/danieldigrandi/)](https://www.linkedin.com/in/danieldigrandi/)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/danieldigrandi)](https://twitter.com/danieldigrandi)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white&link=mailto:daniel@digrandi.com)](mailto:daniel@digrandi.com)
-
----
-
-<p align="center">
-  <a href="#qr-code-studio-">Voltar ao topo</a>
-</p>
-
-<div align="center">
-  
-  [![Stargazers](https://reporoster.com/stars/danieldigrandi/qr-code-studio)](https://github.com/danieldigrandi/qr-code-studio/stargazers)
-
-  <img src="https://raw.githubusercontent.com/danieldigrandi/qr-code-studio/main/footer.png" alt="Footer" width="100%">
-  
-  **[Visite o Site](https://qrcodestudio.com)** • **[Reportar Bug](https://github.com/danieldigrandi/qr-code-studio/issues)** • **[Solicitar Feature](https://github.com/danieldigrandi/qr-code-studio/issues)**
-
-</div>
