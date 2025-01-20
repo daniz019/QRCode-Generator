@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-qrcode"></i>
+        <span>QR Code Studio</span>
+      </div>
+      <ul>
+        <li><a href="#generator">Gerar</a></li>
+        <li><a href="#reader">Ler</a></li>
+        <li><a href="#history">Histórico</a></li>
+        <li><a href="#about">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h1>Gerador e Leitor de QR Code</h1>
+      <p>Crie e leia QR Codes com facilidade e estilo</p>
+    </section>
+    <section id="generator">
+      <h2>Gerar QR Code</h2>
+      <div class="card">
+        <input type="text" id="qr-text" placeholder="Digite o texto ou URL">
+        <button id="generate-btn"><i class="fas fa-magic"></i> Gerar QR Code</button>
+        <div id="qr-result">
+          <div id="qrcode-container">
+            <div id="qrcode"></div>
+          </div>
+          <div class="qr-actions">
+            <a id="download-link" href="#" download="qrcode.png">
+              <i class="fas fa-download"></i> Download
+            </a>
+            <button id="reset-btn">
+              <i class="fas fa-undo"></i> Voltar
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reader">
+      <h2>Ler QR Code</h2>
+      <div class="card">
+        <div class="drag-drop-area" id="drag-drop-area">
+          <i class="fas fa-cloud-upload-alt"></i>
+          <p>Arraste e solte o arquivo aqui ou clique para selecionar</p>
+          <input type="file" id="qr-input" accept="image/*">
+        </div>
+        <div id="reader-result"></div>
+      </div>
+    </section>
+    <section id="history">
+      <h2>Histórico de QR Codes</h2>
+      <div class="card">
+        <div id="history-list"></div>
+        <button id="clear-history-btn">
+          <i class="fas fa-trash"></i> Limpar Histórico
+        </button>
+      </div>
+    </section>
+    <section id="about">
+      <h2>Sobre o QR Code Studio</h2>
+      <p>QR Code Studio é uma ferramenta moderna e fácil de usar para criar e ler QR Codes. Seja para compartilhar links, informações de contato ou qualquer outro tipo de dado, nosso site torna o processo simples e elegante.</p>
+    </section>
+    <div id="loader" class="loader"></div>
+  </main>
+  <footer>
+    <p>&copy; 2025 QR Code Studio - Feito por Daniel Di Grandi</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+  <div class="toast-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
