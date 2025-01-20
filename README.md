@@ -130,11 +130,6 @@ git clone https://github.com/daniz019/QRCode-Generator/tree/main.git
 # Entre no diretório
 cd QRCode-Generator
 
-# Instale as dependências
-npm install
-
-# Inicie o servidor
-npm start
 ```
 
 ## 📖 Uso
